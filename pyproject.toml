@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adsb-exchange-api-nafeeur"
+version = "0.1.0"
+authors = [
+  { name="Nafeeur Rahman", email="nafeeur@mit.edu" },
+]
+description = "A minimal wrapper for the basic ADS-B Exchange API"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { file = "LICENSE" }
+keywords = ["adsb", "aviation", "api", "wrapper", "ads-b"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["requests>=2.0"]
+
+[project.urls]
+"Source" = "https://github.com/nafeeur/adsb-exchange-api"
+"Tracker" = "https://github.com/nafeeur/adsb-exchange-api/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
