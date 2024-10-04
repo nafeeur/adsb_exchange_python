@@ -13,7 +13,7 @@ pip3 install adsb-exchange-python
 ```
 ## Usage 
 ```python
-from adsb_exchange import AdsbExchangeAPI
+from adsb_exchange_python import AdsbExchangeAPI
 
 # Replace 'YOUR_RAPIDAPI_KEY' with your actual RapidAPI key
 api_key = 'YOUR_RAPIDAPI_KEY'
