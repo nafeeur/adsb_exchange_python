@@ -21,8 +21,8 @@ classifiers = [
 dependencies = ["requests>=2.0"]
 
 [project.urls]
-"Source" = "https://github.com/nafeeur/adsb-exchange-api"
-"Tracker" = "https://github.com/nafeeur/adsb-exchange-api/issues"
+"Source" = "https://github.com/nafeeur/adsb_exchange_api"
+"Tracker" = "https://github.com/nafeeur/adsb_exchange_api/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
