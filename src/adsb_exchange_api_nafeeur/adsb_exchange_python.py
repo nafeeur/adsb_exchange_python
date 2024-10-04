@@ -1,4 +1,4 @@
-# src/adsb_exchange_api_nafeeur/adsb_exchange_api.py
+# src/adsb_exchange_python/adsb_exchange_python.py
 
 import requests
 
