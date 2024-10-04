@@ -1,7 +1,7 @@
 # tests/test.py
 
 import unittest
-from adsb_exchange_api_nafeeur import AdsbExchangeAPI
+from adsb_exchange_python import AdsbExchangeAPI
 
 class TestAdsbExchangeAPI(unittest.TestCase):
     def setUp(self):
