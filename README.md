@@ -20,6 +20,11 @@ api_key = 'YOUR_RAPIDAPI_KEY'
 api = AdsbExchangeAPI(api_key=api_key)
 
 # Get aircraft data by registration
-data = api.get_by_registration('N8737L')
-print(data)
+registration = 'N8737L'
+try:
+    data = api.get_by_registration(registration)
+    print(f"Data for registration {registration}:")
+    print(data)
+except Exception as e:
+    print(f"Error fetching data for registration {registration}: {e}")
 ```
