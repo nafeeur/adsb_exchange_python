@@ -9,7 +9,7 @@ https://rapidapi.com/adsbx/api/adsbexchange-com1
 Install the package via pip:
 
 ```bash
-pip3 install adsb-exchange-python
+pip install adsb-exchange-python
 ```
 ## Usage 
 ```python
